@@ -29,7 +29,7 @@ public class longest_palidrome_subsequence3 {
 
 	}
 	public static void main(String []args) {
-		 String s = "geeksskeeg";          //"ABBDCACB"; 
+		 String s = "ABBDCACB"; 
 	        int n = s.length(); 
 	        System.out.print(calculate_lps(s.toCharArray(), 0, n - 1)); 
 	}
